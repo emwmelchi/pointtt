@@ -1,0 +1,5 @@
+local args = {
+    [1] = 1000
+}
+
+game:GetService("ReplicatedStorage").CarRelated.DataStores.AddPoints:FireServer(unpack(args))
